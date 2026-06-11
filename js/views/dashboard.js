@@ -116,18 +116,6 @@ export default {
         </div>
         <i class="ph ph-caret-right text-secondary"></i>
       </a>
-
-      <div class="card mb-4" style="background: linear-gradient(135deg, #1E1E1E 0%, #2a2a2a 100%);">
-        <div class="d-flex justify-between align-center">
-          <div>
-            <div class="text-secondary fs-sm mb-1">Total Investido</div>
-            <div class="fs-xl fw-bold text-accent">${Formatters.currency(stats.invested)}</div>
-          </div>
-          <div style="width: 48px; height: 48px; background: rgba(16, 185, 129, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-            <i class="ph ph-trend-up text-accent fs-xl"></i>
-          </div>
-        </div>
-      </div>
     `;
   },
 
