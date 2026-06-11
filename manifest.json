@@ -1,0 +1,18 @@
+{
+  "name": "LTFinance",
+  "short_name": "LTFinance",
+  "description": "Aplicativo de Controle Financeiro Pessoal",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

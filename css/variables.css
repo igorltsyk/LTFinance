@@ -1,0 +1,41 @@
+:root {
+  /* Dark Mode Colors */
+  --bg-color: #121212;
+  --bg-surface: #1E1E1E;
+  --bg-surface-elevated: #2C2C2C;
+  
+  --text-primary: #FFFFFF;
+  --text-secondary: #A0A0A0;
+  
+  /* Primary & Accents */
+  --primary-color: #10B981; /* Emerald Green */
+  --primary-color-dark: #059669;
+  
+  --success-color: #10B981;
+  --danger-color: #EF4444;
+  --warning-color: #F59E0B;
+  
+  /* Borders */
+  --border-color: #333333;
+  
+  /* Safe Areas (iOS) */
+  --sat: env(safe-area-inset-top);
+  --sab: env(safe-area-inset-bottom);
+  --sal: env(safe-area-inset-left);
+  --sar: env(safe-area-inset-right);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.25);
+  
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+  
+  /* Transitions */
+  --transition-fast: 0.15s ease-in-out;
+  --transition-normal: 0.3s ease-in-out;
+}
